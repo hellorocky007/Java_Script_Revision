@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(236, 77, 77, 0.911);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.counterTimer{
+    display: flex;
+}
+.counterTimer p{
+text-align: center;
+padding: 15px;
+text-transform: uppercase;
+
+}
+.counterTimer p span{
+    display: block;
+    font-size: 1.5rem;
+}
